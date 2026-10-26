@@ -50,13 +50,7 @@ public class Main {
     //tarea listar
 
 
-    public static void listarTareas(){
-        System.out.println("\n");
-        if (tareas.isEmpty()) System.out.println("No hay tareas que listar.");
-        else System.out.println("--Lista de tareas--");
-        for (int i = 0; i < tareas.size() && !tareas.isEmpty(); i++){
-            System.out.println((i+1) + ". " + tareas.get(i));
-        }
+
 
 
 
@@ -66,6 +60,11 @@ public class Main {
 
     //tarea eliminar
   
+
+        public static void eliminarTarea(int index){
+        tareas.remove(index-1);
+        mainMenu();
+    }
 
 
 
