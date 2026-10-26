@@ -59,11 +59,11 @@ public class Main {
 
 
     //tarea eliminar
-  
-
-
-
-
+    
+    public static void eliminarTarea(int index){
+        tareas.remove(index-1);
+        mainMenu();
+    }
 
 
 
