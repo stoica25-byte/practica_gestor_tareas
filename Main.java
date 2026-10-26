@@ -49,7 +49,7 @@ public class Main {
     }
 
     //tarea listar
-    a
+    
 
 
 
@@ -73,7 +73,9 @@ public class Main {
     
 
     //Tarea agregar 
-
+    public static void agregarTarea(String tarea){
+        tareas.add(tarea);
+    }
 
 
 
