@@ -67,6 +67,10 @@ public class Main {
     //tarea eliminar
   
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of d8613ac (EliminarTareas, Cambios a ReadMe)
 
 
 
