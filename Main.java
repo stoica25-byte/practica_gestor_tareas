@@ -65,10 +65,10 @@ public class Main {
 
 
     //tarea eliminar
-  
-
-
-
+        public static void eliminarTarea(int index){
+        tareas.remove(index-1);
+        mainMenu();
+    }
 
 
 
@@ -76,7 +76,9 @@ public class Main {
     
 
     //Tarea agregar 
-
+    public static void agregarTarea(String tarea){
+        tareas.add(tarea);
+    }
 
 
 
